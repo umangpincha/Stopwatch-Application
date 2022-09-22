@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#120E43]">
+  <div class="container  text-center mt-[50%] mb-[50%] md:mt-[15%] ">
+    <div class="stopwatch text-[500%] font-bold text-white">
+        00:00:00
+    </div>
+    <div class="buttons mt-4 sm:space-x-[5%] md:space-x-[0%]">
+        <button class="btn p-2 bg-[#46B2E0] text-white rounded-2xl w-[20%] md:w-[8%] font-bold" onclick="startTimer() ">Start</button>
+        <button class="btn p-2 bg-[#46B2E0] text-white rounded-2xl w-[20%] md:w-[8%] font-bold" onclick="stopTimer()">Stop</button>
+        <button class="btn p-2 bg-[#46B2E0] text-white rounded-2xl w-[20%] md:w-[8%] font-bold" onclick="resetTimer()">Reset</button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
