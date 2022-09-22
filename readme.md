@@ -1,4 +1,4 @@
-Stopwatch Application
+# Stopwatch Application
 
 ![thumbnail](./Thumbnail.PNG)
 
